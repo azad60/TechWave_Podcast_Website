@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
+/* share css style  */
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+.container{
+  max-width: 1200px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+/* main css style  */
+#header{
+  background-color: #1A0B2E;
+  padding: 1.87rem 0;
+}
+.nav_main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_main .nav_logo{
+  max-width: 219px;
+  max-height: 32px;
+}
+.nav_main .nav_logo img{
+  width: 100%;
+}
+.nav_main ul{
+  display: flex;
+  gap: 2rem;
+}
+.nav_main ul li{
+  list-style: none;
+}
+.nav_main ul li a:hover{
+  color: #00FF88;
+}
+.nav_main ul li a{
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+.nav_btn{
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  background: linear-gradient(
+  47.64deg,rgba(247, 233, 63, 1),rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+  padding: 0.75rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+.nav_btn span{
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  margin-right: 0.4rem;
+}
+.nav_btn span:hover{
+  color: #00FF88;
+}
+.nav_btn img{
+  width: 100%;
+}
+.hamburger{
+  display: none;
+  width: 24px;
+  height: 24px;
+  background-color: #1A0B2E;
+  border: none;
+}
+.hamburger img{
+  width: 100%;
+}
+
+#banner_section{
+  background: url(/assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+.banner_main{}
+.banner_img{
+  max-width: 350px;
+  max-height: 350px;
+  border-radius: 50%;
+}
+.banner_img img{
+  width: 100%;
+}
+.banner_main h1{
+  font-size: 68px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: white;
+}
+.banner_main p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #D1CFD8;
+  margin-bottom: 24px;
+}
+.banner_btn{
+  display: flex;
+  align-items: center;
+}
+.banner_btn button{
+  padding: 12px 20px;
+  background: linear-gradient(
+  47.64deg,rgba(247, 233, 63, 1),rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+}
+.banner_btn button img{
+  width: 20px;
+  height: 20px;
+}
+.banner_btn button span{}
+
+/* media querry */
+ @media screen and (min-width:576px) and (max-width:992px) {
+     .nav_main ul{
+    gap: 1rem;
+}
+.nav_btn{
+  padding: 0.6rem 0.8rem; 
+}
+ }
+@media screen and (max-width:576px) {
+  .nav_main ul{
+  display: none;
+}
+  .nav_btn{
+  display: none;
+}
+  .hamburger{
+  display: block;
+}
+  
+}
+@media screen and (min-width: 992px) {
+  .container{
+ 
+}
+}
