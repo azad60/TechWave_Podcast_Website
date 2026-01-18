@@ -89,14 +89,39 @@ html{
   background-size: cover;
   padding: 100px 0;
 }
-.banner_main{}
+.banner_main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .banner_img{
   max-width: 350px;
   max-height: 350px;
   border-radius: 50%;
+  position: relative;
 }
 .banner_img img{
   width: 100%;
+}
+.microphone{
+  max-width: 200px;
+  max-height: 200px;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+.badge{
+  background-color: #00FF88;
+  padding: 8px 16px;
+  border-radius: 100px;
+  display: inline;
+  font-size: 22px;
+  font-weight: 400;
+  color: #000;
+  position: absolute;
+  top: 15px;
+  right: 0px;
 }
 .banner_main h1{
   font-size: 68px;
@@ -109,21 +134,37 @@ html{
   font-weight: 400;
   color: #D1CFD8;
   margin-bottom: 24px;
+  text-align: center;
 }
 .banner_btn{
   display: flex;
+  gap: 8px;
   align-items: center;
 }
 .banner_btn button{
+  color: white;
+  display: flex;
+  align-items: center;
   padding: 12px 20px;
   background: linear-gradient(
   47.64deg,rgba(247, 233, 63, 1),rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+  border-radius: 100px;
+  border: 1px solid #1A0B2E;
+}
+.banner_btn button:hover{
+  color: #00FF88;
+  background: transparent;
+  border: 1px solid #00FF88;
 }
 .banner_btn button img{
   width: 20px;
   height: 20px;
 }
-.banner_btn button span{}
+.banner_btn button span{
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 8px;
+}
 
 /* media querry */
  @media screen and (min-width:576px) and (max-width:992px) {
