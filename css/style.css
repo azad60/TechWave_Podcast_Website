@@ -87,7 +87,7 @@ html{
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 .banner_main{
   display: flex;
@@ -114,10 +114,10 @@ html{
 }
 .badge{
   background-color: #00FF88;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   border-radius: 100px;
   display: inline;
-  font-size: 22px;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #000;
   position: absolute;
@@ -127,26 +127,28 @@ html{
 .banner_main h1{
   font-size: 4.25rem;
   font-weight: 800;
-  margin-bottom: 8px;
+  margin-bottom: 05rem;
   color: white;
 }
 .banner_main p{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   color: #D1CFD8;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 .banner_btn{
   display: flex;
-  gap: 8px;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
   align-items: center;
 }
 .banner_btn button{
   color: white;
   display: flex;
   align-items: center;
-  padding: 12px 20px;
+  padding: 0.75rem 1.25rem;
   background: linear-gradient(
   47.64deg,rgba(247, 233, 63, 1),rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
   border-radius: 100px;
@@ -162,14 +164,14 @@ html{
   height: 20px;
 }
 .banner_btn button span{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
-  margin-left: 8px;
+  margin-left: 0.5rem;
 }
 /* about section style  */
 #about{
   background-color: #1A0B2E;
-  padding: 120px 0;
+  padding: 7.5rem 0;
 }
 .about_top{
   text-align: center;
@@ -179,47 +181,48 @@ html{
   font-size: 3rem;
   font-weight: 700;
   color: white;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 .about_top p{
   color: #D1CED5;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 20px;
-  margin-bottom: 70px;
-  padding: 0 200px;
+  line-height: 1.25rem;
+  margin-bottom: 4.36rem;
+  padding: 0 12.5rem;
 }
 .about_bottom{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 5rem;
 }
 .Listener_box{
   text-align: center;
 }
 .Listener_box h2{
-  font-size: 48px;
-  font-weight: 900px;
+  font-size: 3rem;
+  font-weight: 900;
   color: #00FF88;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 .Listener_box h4{
-  font-size: 16px;
+  font-size: 1rem;
   color: #D1CED5;
   text-transform: uppercase;
 }
 /* why choose section start */
 #why_choose{
   background-color: #230E3D;
-  padding: 120px 0;
+  padding: 7.5rem 0;
 }
 #why_choose h1{
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   color: white;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 .why_choose_items_box{
   display: grid;
@@ -237,7 +240,7 @@ html{
 }
 .why_choose_items{
   background-color: #2A0F4D;
-  padding: 40px;
+  padding: 2.5rem;
   border-radius: 40px;
   display: flex;
   flex-direction: column;
@@ -248,30 +251,29 @@ html{
   max-height: 60px;
 }
 .why_choose_items h3{
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   color: white;
-  margin: 16px 0;
+  margin: 1rem 0;
 }
 .why_choose_items p{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   color: #D1CFD8;
 }
 /* feature section style */
 #feature_section{
   background-color: #1A0B2E;
-  padding: 120px 0;
+  padding: 7.5rem 0;
 }
 .feature_main h1{
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   color: white;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
-.feature_main{}
 .feature_items_box{
   display: flex;
   justify-content: space-between;
@@ -280,31 +282,31 @@ html{
 }
 .feature_item{
   background-color: #250D44;
-  padding: 24px;
+  padding: 1.5rem;
   border-radius: 24px;
 }
 .feature_item .video iframe{
   border-radius: 24px;
 }
 .feature_item h2{
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   color: white;
-  margin: 16px 0;
+  margin: 1rem 0;
 }
 .feature_item p{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   color: #D1CFD8;
 }
 .feature_item .time{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   color: #00FF88;
   display: flex;
   align-items: center;
-  margin-top: 16px;
+  margin-top: 1rem;
 }
 .feature_item .time img{
   width: 20px;
@@ -315,20 +317,21 @@ html{
 /* Host section style */
 #host{
   background-color: #1A0B2E;
-  padding-bottom: 120px;
+  padding-bottom: 7.5rem;
 }
 #host h1{
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   color: white;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 .host_main{
   background-color: #250D44;
-  padding: 40px;
+  padding: 2.5rem;
   border-radius: 40px;
   display: flex;
+  gap: 1.5rem;
   justify-content: space-between;
   align-items: center;
 }
@@ -344,16 +347,16 @@ html{
   width: 78%;
 }
 .host_content h2{
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   color: white;
 }
 .host_content p{
   color: #D1CED5;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 24px;
-  margin-bottom: 16px;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
 }
 .host_content ul{
   display: flex; 
@@ -367,7 +370,59 @@ html{
   border-radius: 50%;
   margin-right: 8px;
 }
-.host_content ul li a{}
+/* footer section style */
+#footer{
+  background-image: url(/assets/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 7.5rem 0;
+}
+.footer_main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer_main img{
+  max-width: 410px;
+  margin-bottom: 1.23rem;
+}
+.footer_main ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+.footer_main ul li{
+  list-style: none;
+}
+.footer_main ul li a{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_main ul li a img{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.footer_main ul li a span{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #D1CED5;
+  margin-left: 8px;
+}
+.footer_main p{
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #D1CED5;
+  text-align: center;
+}
 /* media querry */
  @media screen and (min-width:576px) and (max-width:992px) {
      .nav_main ul{
@@ -376,7 +431,52 @@ html{
 .nav_btn{
   padding: 0.6rem 0.8rem; 
 }
+#banner_section{
+  padding: 3.5rem 0;
+}
+#about{
+  padding: 4.5rem 0;
+}
+.about_top p{
+  margin-bottom: 2.5rem;
+  padding: 0;
+}
+#why_choose{
+  padding: 4.5rem 0;
+}
+.why_choose_items_box{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.large_items_box{
+  grid-column: span 1;
+  grid-row: span 1;
+}
+#feature_section{
+  background-color: #1A0B2E;
+  padding: 3.5rem 0;
+}
+.feature_items_box{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.feature_item{
+  max-width: 450px;
+}
+#host{
+  padding-bottom: 2.5rem;
+}
+#host h1{
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+#footer{
+  padding: 4.5rem 0;
+}
  }
+
 @media screen and (max-width:576px) {
   .nav_main ul{
   display: none;
@@ -386,6 +486,9 @@ html{
 }
   .hamburger{
   display: block;
+}
+#banner_section{
+  padding: 2.5rem 0;
 }
 .banner_img{
   max-width: 300px;
@@ -399,10 +502,75 @@ html{
 .banner_main h1{
   font-size: 3.25rem;
 }
-  
+#about{
+  background-color: #1A0B2E;
+  padding: 2.5rem 0;
 }
-@media screen and (min-width: 992px) {
-  .container{
- 
+.about_top h1{
+  font-size: 2rem;
+}
+.about_top p{
+  padding: 0 1rem;
+  margin-bottom: 1.5rem;
+}
+.about_bottom {
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#why_choose {
+    padding: 2.5rem 0;
+}
+#why_choose h1{
+  font-size: 2rem;
+}
+.why_choose_items_box {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+#feature_section {
+    padding: 2.5rem 0;
+}
+.feature_main h1{
+  font-size: 2rem;
+}
+.feature_items_box {
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#host {
+    padding-bottom: 2.5rem;
+}
+#host h1{
+  font-size: 2rem;
+  padding: 2rem 0;
+  margin: 0;
+}
+.host_main{
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.host_content{
+  width: 100%;
+  text-align: center;
+}
+.host_content ul{
+  justify-content: center;
+}
+#footer{
+  padding: 2.5rem 0;
+}
+.footer_main img{
+  margin-bottom: 1rem;
+}
+.footer_main ul{
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin: 0 5.1rem;
 }
 }
