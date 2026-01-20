@@ -312,6 +312,62 @@ html{
   border-radius: 50%;
   margin-right: 6px;
 }
+/* Host section style */
+#host{
+  background-color: #1A0B2E;
+  padding-bottom: 120px;
+}
+#host h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.host_main{
+  background-color: #250D44;
+  padding: 40px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.host_img{
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+.host_img img{
+  width: 100%;
+}
+.host_content{
+  width: 78%;
+}
+.host_content h2{
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+.host_content p{
+  color: #D1CED5;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.host_content ul{
+  display: flex; 
+}
+.host_content ul li{
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #533C72;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.host_content ul li a{}
 /* media querry */
  @media screen and (min-width:576px) and (max-width:992px) {
      .nav_main ul{
