@@ -81,7 +81,7 @@ html{
 .hamburger img{
   width: 100%;
 }
-
+/* Banner section style  */
 #banner_section{
   background: url(/assets/hero-bg.png);
   background-repeat: no-repeat;
@@ -108,8 +108,9 @@ html{
   max-width: 200px;
   max-height: 200px;
   position: absolute;
-  top: 25%;
-  left: 35%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .badge{
   background-color: #00FF88;
@@ -124,7 +125,7 @@ html{
   right: 0px;
 }
 .banner_main h1{
-  font-size: 68px;
+  font-size: 4.25rem;
   font-weight: 800;
   margin-bottom: 8px;
   color: white;
@@ -165,7 +166,49 @@ html{
   font-weight: 600;
   margin-left: 8px;
 }
-
+/* about section style  */
+#about{
+  background-color: #1A0B2E;
+  padding: 120px 0;
+}
+.about_top{
+  text-align: center;
+  border-bottom: 1px solid #312443;
+}
+.about_top h1{
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 16px;
+}
+.about_top p{
+  color: #D1CED5;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 70px;
+  padding: 0 200px;
+}
+.about_bottom{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 80px;
+}
+.Listener_box{
+  text-align: center;
+}
+.Listener_box h2{
+  font-size: 48px;
+  font-weight: 900px;
+  color: #00FF88;
+  margin-bottom: 16px;
+}
+.Listener_box h4{
+  font-size: 16px;
+  color: #D1CED5;
+  text-transform: uppercase;
+}
 /* media querry */
  @media screen and (min-width:576px) and (max-width:992px) {
      .nav_main ul{
@@ -184,6 +227,18 @@ html{
 }
   .hamburger{
   display: block;
+}
+.banner_img{
+  max-width: 300px;
+  max-height: 300px;
+}
+.badge{
+  font-size: 18px;
+  top: 15px;
+  right: 0px;
+}
+.banner_main h1{
+  font-size: 3.25rem;
 }
   
 }
